@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectHealthy</string>
+    <string-array name="items">
+        <item>Cường độ vận động thấp</item>
+        <item>Cường độ vận động trung bình</item>
+        <item>Cường độ vận động cao</item>
+    </string-array>
+</resources>

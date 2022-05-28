@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mKcal"
+        android:title="Kcal"
+        android:icon="@drawable/ic_meal"/>
+    <item
+        android:id="@+id/mStep"
+        android:title="Steps"
+        android:icon="@drawable/ic_step"/>
+    <item
+        android:id="@+id/mCal"
+        android:title="Calculator"
+        android:icon="@drawable/ic_cal"/>
+    <item
+        android:id="@+id/mAccount"
+        android:title="Account"
+        android:icon="@drawable/ic_account"/>
+</menu>

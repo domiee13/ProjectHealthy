@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vani"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/textgreen"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số bước hôm nay"
+        />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="@color/darkvani"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số bước"
+            android:textSize="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3456"
+            android:textSize="72dp"
+            android:textStyle="bold"
+            android:textColor="@color/textgreen"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kcal tiêu thụ"
+            android:textSize="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="106.38"
+            android:textSize="72dp"
+            android:textStyle="bold"
+            android:textColor="@color/textgreen"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/textgreen"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stepRV"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="200dp"
+        android:background="@color/darkvani"
+
+        />
+</LinearLayout>
