@@ -86,9 +86,9 @@ public class FragmentCal extends Fragment {
                     result = (float) ((655.1 + 9.6*weight + 1.9*height) - (4.7*age));
                     result = result*tile;
                 }
-                tvRes.setText("Lượng Kcal: "+result+
-                        "\nCần nạp vào: "+(result-10) + " để giảm cân\n" +
-                        "Cần nạp vào: "+ (result+10) + " để tăng cân.");
+                tvRes.setText("Lượng Calo cần thiết trong 1 ngày: "+result+
+                        "\nCần nạp vào: "+(result-10) + " calo để giảm cân\n" +
+                        "Cần nạp vào: "+ (result+10) + " calo để tăng cân.");
             }
         });
     }

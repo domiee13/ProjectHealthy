@@ -38,7 +38,7 @@
             android:textColor="@color/textgreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kcal"/>
+            android:text="Calo"/>
         <EditText
             android:id="@+id/etKcal"
             android:padding="10dp"

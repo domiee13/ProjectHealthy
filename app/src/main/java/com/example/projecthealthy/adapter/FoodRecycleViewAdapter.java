@@ -38,7 +38,7 @@ public class FoodRecycleViewAdapter extends RecyclerView.Adapter<FoodRecycleView
     public void onBindViewHolder(@NonNull FoodViewHolder holder, int position) {
         Food item = list.get(position);
         holder.name.setText(item.getName());
-        holder.kcal.setText(item.getKcal()+" kcal");
+        holder.kcal.setText(item.getKcal()+" calo");
     }
 
     @Override

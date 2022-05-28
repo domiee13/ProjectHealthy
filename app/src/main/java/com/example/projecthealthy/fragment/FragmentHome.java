@@ -77,7 +77,7 @@ public class FragmentHome extends Fragment implements FoodRecycleViewAdapter.Ite
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
         //
-        tongKcal.setText(tong(list)+" (Kcal)");
+        tongKcal.setText(tong(list)+" (Calo)");
     }
 
     public float tong(List<Food> list){
@@ -89,7 +89,7 @@ public class FragmentHome extends Fragment implements FoodRecycleViewAdapter.Ite
     }
 
     public void setTong(List<Food> list){
-        tongKcal.setText(tong(list)+" (Kcal)");
+        tongKcal.setText(tong(list)+" (Calo)");
     }
 
     @Override
@@ -102,7 +102,7 @@ public class FragmentHome extends Fragment implements FoodRecycleViewAdapter.Ite
         SimpleDateFormat f = new SimpleDateFormat("dd/MM/yyyy");
         List<Food> list = sqLiteHelper.getAllFood(user.getId(),f.format(d));
         adapter.setList(list);
-        tongKcal.setText(tong(list)+" (Kcal)");
+        tongKcal.setText(tong(list)+" (Calo)");
     }
 
     @Override
